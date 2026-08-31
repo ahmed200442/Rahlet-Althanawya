@@ -1,8 +1,8 @@
 {
   "name":"rahlet-althanawya",
-  "version":"2.0.1",
+  "version":"2.0.2",
   "private":true,
   "main":"node_modules/expo/AppEntry.js",
   "scripts":{"start":"expo start","android":"expo run:android","build:apk":"eas build --platform android --profile preview"},
-  "dependencies":{"@expo/vector-icons":"^14.1.0","@supabase/supabase-js":"^2.57.0","expo":"^53.0.0","expo-asset":"~11.0.5","react":"19.0.0","react-native":"0.79.2","react-native-url-polyfill":"^2.0.0"}
+  "dependencies":{"@expo/vector-icons":"^14.1.0","@react-native-async-storage/async-storage":"^2.2.0","@supabase/supabase-js":"^2.57.0","expo":"^53.0.0","expo-asset":"~11.0.5","react":"19.0.0","react-native":"0.79.2","react-native-url-polyfill":"^2.0.0"}
 }

@@ -12,6 +12,11 @@ jobs:
         with:
           node-version: 20
       - run: npm install
-      - run: npx eas-cli@latest build --platform android --profile preview --non-interactive
+      - name: Initialize EAS project
+        run: npx eas-cli@latest init --account ahmed200442 --force --non-interactive
+        env:
+          EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
+      - name: Build Android APK
+        run: npx eas-cli@latest build --platform android --profile preview --non-interactive
         env:
           EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}

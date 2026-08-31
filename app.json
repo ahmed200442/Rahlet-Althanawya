@@ -2,7 +2,7 @@
   "expo": {
     "name": "رحلة الثانوية",
     "slug": "rahlet-althanawya",
-    "version": "2.0.1",
+    "version": "2.0.2",
     "orientation": "portrait",
     "userInterfaceStyle": "light",
     "android": { "package": "com.rahlet.althanawya" },
